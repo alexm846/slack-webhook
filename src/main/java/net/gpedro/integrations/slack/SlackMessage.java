@@ -18,10 +18,12 @@ public class SlackMessage {
 	private static final String TEXT = "text";
 	private static final String ATTACHMENTS = "attachments";
 	private static final String LINK_NAMES = "link_names";
+	private static final String IM = "im";
 
 	private List<SlackAttachment> attach = new ArrayList<SlackAttachment>();
 	private String channel = null;
 	private String icon = null;
+	private String im = null;
 	private JsonObject slackMessage = new JsonObject();
 
 	private String text = null;
